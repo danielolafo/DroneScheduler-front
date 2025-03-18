@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.drone-table{
+  border: 1px solid black;
+}
+
+.drone-cells{
+  border: 1px solid black;
+}
