@@ -13,7 +13,7 @@ export function DroneScheduler() {
     }, []);
 
     return (<div>
-        <table class="drone-table">
+        <table class="drone-table center-content">
             <thead>
             <tr>
                 <th>Serial number</th>

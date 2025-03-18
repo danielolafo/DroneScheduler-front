@@ -44,3 +44,8 @@
 .drone-cells{
   border: 1px solid black;
 }
+
+.center-content{
+  margin-left: auto;
+  margin-right: auto;
+}
