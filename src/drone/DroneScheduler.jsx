@@ -1,6 +1,9 @@
 import axios from 'axios';
 import { useState, useEffect } from 'react';
 
+/**
+ * 
+ */
 export function DroneScheduler() {
 
     const [drones, setDrones] = useState([])
