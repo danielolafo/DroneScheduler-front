@@ -46,6 +46,5 @@
 }
 
 .center-content{
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
