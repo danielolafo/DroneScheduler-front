@@ -16,9 +16,9 @@ export function DroneScheduler() {
         <table class="drone-table center-content">
             <thead>
             <tr>
-                <th>Serial number</th>
-                <th>Model</th>
-                <th>Wieght limit</th>
+                <th class="drone-cells">Serial number</th>
+                <th class="drone-cells">Model</th>
+                <th class="drone-cells">Wieght limit</th>
             </tr>
             </thead>
             <tbody>
