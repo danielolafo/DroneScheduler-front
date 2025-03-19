@@ -2,7 +2,7 @@ import axios from 'axios';
 import { useState, useEffect } from 'react';
 
 /**
- * 
+ * @author Daniel López
  */
 export function DroneScheduler() {
 
