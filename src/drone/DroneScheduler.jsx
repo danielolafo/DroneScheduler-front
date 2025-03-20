@@ -1,12 +1,18 @@
 import axios from 'axios';
 import { useState, useEffect } from 'react';
+import { Modal } from '../modal/Modal';
 
 /**
  * @author Daniel López
  */
 export function DroneScheduler() {
 
-    const [drones, setDrones] = useState([])
+    const [drones, setDrones] = useState([]);
+    const [isOpen, setIsOpen] = useState(false);
+
+    const openModal = () => {
+        this.setIsOpen(true);
+    }
 
     useEffect(() => {
         axios.get('http://droneschedule-dev-env.eba-msy4dwzg.us-east-1.elasticbeanstalk.com/dispatcher/get-available-drones').then((data) => {
@@ -21,7 +27,7 @@ export function DroneScheduler() {
             <tr>
                 <th class="drone-cells">Serial number</th>
                 <th class="drone-cells">Model</th>
-                <th class="drone-cells">Wieght limit</th>
+                <th class="drone-cells">Weight limit</th>
             </tr>
             </thead>
             <tbody>
